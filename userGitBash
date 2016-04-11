@@ -1,26 +1,26 @@
 download  gitbash 
 
 
-git init    #创建一个新的git仓库
+git init    创建一个新的git仓库
 
 git remote add origin git@github.com:YourName/Dir.git
 
-#origin 是你为你的远程仓库取得别名  YourName 是你的用户名 Dir是你的项目名
+origin 是你为你的远程仓库取得别名  YourName 是你的用户名 Dir是你的项目名
 
 git pull origin master 
 
-# pull 意味着从远程仓库获取并合并到本地
-# origin 是刚才取的别名
-# master 是你的分支
+ pull 意味着从远程仓库获取并合并到本地
+ origin 是刚才取的别名
+ master 是你的分支
 
 git add * 将你的所有内容加入到你的缓存区
 git add filename 单独加入一个或多个文件到缓存区
 git commit -m "代码提交信息" 提交改动到本地
 
-#git push origin master
-#push 提交
-#origin 是为远程服务器取的别名
-#master 是一个分支
+git push origin master
+push 提交
+origin 是为远程服务器取的别名
+master 是一个分支
 
 
 
